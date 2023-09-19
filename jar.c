@@ -7,7 +7,7 @@
  * @format: Character string that directs the format of the output
  * Return: The number of characters printed, excluding the null byte
  */
-int _printf(const char *format, ...)
+int _printf_unsigned(const char *format, ...)
 {
 	va_list args;
 	char buffer[20];

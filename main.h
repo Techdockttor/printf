@@ -14,5 +14,6 @@ void reverseString(char *str);
 void rot13Encode(char *str);
 void appendToBuffer(char *buffer, const char *str, int *written, int maxLength);
 int print_ptr(const char *format, ...);
+int _printf_unsigned(const char *format, ...);
 
 #endif
