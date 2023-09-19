@@ -7,6 +7,7 @@
  * @args: The va_list of arguments
  * @count: Pointer to the count of characters printed
  */
+
 void handle_format(const char *format, va_list args, int *count)
 {
 	char buffer[20];

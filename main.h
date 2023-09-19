@@ -15,5 +15,6 @@ void rot13Encode(char *str);
 void appendToBuffer(char *buffer, const char *str, int *written, int maxLength);
 void handle_format(const char *format, va_list args, int *count);
 int print_ptr(const char *format, ...);
+int _printf_unsigned(const char *format, ...);
 
 #endif
