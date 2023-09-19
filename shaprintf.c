@@ -28,7 +28,7 @@ int _shaprintf(char *str, const char *format, ...)
 	{
 		if (format[z] == '%')
 		{
-			 z++;
+			z++;
 			switch (format[z])
 			{
 				case 'd':
