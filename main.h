@@ -8,5 +8,6 @@
 int custom_putchar(char c);
 int custom_puts(char *s);
 int _printf(const char *format, ...);
+int check_int(const char *format, ...);
 
 #endif
