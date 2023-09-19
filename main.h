@@ -12,6 +12,5 @@ int shaprintf(char *str, const char *format, ...);
 void reverseString(char *str);
 void rot13Encode(char *str);
 void appendToBuffer(char *buffer, const char *str, int *written, int maxLength);
-char *convert_to_binary(unsigned int num, char *binary);
 
 #endif
