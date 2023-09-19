@@ -13,6 +13,7 @@ int shaprintf(char *str, const char *format, ...);
 void reverseString(char *str);
 void rot13Encode(char *str);
 void appendToBuffer(char *buffer, const char *str, int *written, int maxLength);
+void handle_format(const char *format, va_list args, int *count);
 int print_ptr(const char *format, ...);
 
 #endif
