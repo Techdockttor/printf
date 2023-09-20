@@ -36,5 +36,6 @@ int print_ptr(const char *format, ...)
 	}
 
 	va_end(args);
+
 	return (count);
 }
