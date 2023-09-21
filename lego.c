@@ -3,12 +3,12 @@
 #include "main.h"
 
 /**
- * _printf - produces output according to a format
+ * lego_printf - produces output according to a format
  * @format: Character string that directs the format of the output
  * Return: The number of characters printed, excluding the null byte
  */
 
-int _printf(const char *format, ...)
+int lego_printf(const char *format, ...)
 {
 
 	va_list args;
