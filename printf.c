@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
  * _printf - produces output according to a format
  * @format: Character string that directs the format of the output
  * Return: The number of characters printed, excluding the null byte
  */
-
+int _printf(const char *format, ...);
 int _printf(const char *format, ...)
 {
 	va_list args;
@@ -25,7 +24,9 @@ int _printf(const char *format, ...)
 		{
 			char *s = va_arg(args, char *);
 
-			s = s ? s : "(null)";
+			if (s == NULL)
+				s = "(null)";
+
 			count += custom_puts(s);
 		}
 		else if (format[z] == 'i' || format[z] == 'd')
