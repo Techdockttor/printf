@@ -8,7 +8,6 @@
 int custom_putchar(char c);
 int custom_puts(char *s);
 int _printf(const char *format, ...);
-int lego_printf(const char *format, ...);
 int check_int(const char *format, ...);
 int shaprintf(char *str, const char *format, ...);
 void reverseString(char *str);
