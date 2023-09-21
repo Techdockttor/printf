@@ -34,12 +34,12 @@ int _shaprintf(char *str, const char *format, ...)
 				case 'd':
 				case 'i':
 					num = va_arg(args, int);
-					written += snprintf(str + written, 128, "%d", num);
+					written += snprintf(str + written, 1, "%d", num);
 
 				break;
 				case 's':
 					s = va_arg(args, char *);
-					written += snprintf(str + written, 128, "%s", s);
+					written += snprintf(str + written, 1, "%s", s);
 				break;
 				default:
 
