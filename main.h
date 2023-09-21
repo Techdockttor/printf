@@ -15,7 +15,6 @@ void rot13Encode(char *str);
 void appendToBuffer(char *buffer, const char *str,
 int *written, int maxLength);
 void handle_format(const char *format, va_list args, int *count);
-int yhandle_format(const char *format, va_list args, int *count, char *buffer);
 int print_ptr(const char *format, ...);
 int _printf(const char *format, ...);
 
