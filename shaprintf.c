@@ -1,11 +1,8 @@
-#include <stdio.h>
-#include <stdarg.h>
-
+#include "main.h"
 /**
  * _shaprintf - Formats and prints data to a string
  * @str: The string buffer to write to
  * @format: The format string
- * @...: Optional arguments to format
  *
  * Return: The number of characters written to the buffer, excluding the null
  * byte, or -1 if an unsupported conversion specifier was encountered
