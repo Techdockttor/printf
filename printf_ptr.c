@@ -24,7 +24,7 @@ int print_ptr(const char *format, ...)
 			{
 				void *ptr = va_arg(args, void *);
 
-				snprintf(buffer, sizeof(buffer), "%p", ptr);
+				snprintf(buffer, sizeof(buffer), "%p", (void **) ptr);
 				count += custom_puts(buffer);
 			}
 		}
