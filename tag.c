@@ -3,8 +3,8 @@
 
 /**
  * convert_to_binary - converts an unsigned int to a binary string
- * @num: The unsigned integer to convert
- * @binary: A buffer to store the binary string (should have enough space)
+ * @num: unsigned integer to convert
+ * @binary: buffer to store the binary string 
  * Return: The binary string representation of num
  */
 
